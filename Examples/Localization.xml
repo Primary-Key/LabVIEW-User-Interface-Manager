@@ -1,49 +1,77 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <UIM>
-  <State Name="English">
+
+  <UIPList>
+    <UIPPlugin Enabled="TRUE" Path="C:\GitHub\LabVIEW-User-Interface-Manager\Plugin UIPs\CaptionUIP\CaptionUIP.lvclass"/>
+    <UIPPlugin Enabled="TRUE" Path="C:\GitHub\LabVIEW-User-Interface-Manager\Plugin UIPs\DescriptionUIP\DescriptionUIP.lvclass"/>
+    <UIPPlugin Enabled="FALSE" Path="C:\GitHub\LabVIEW-User-Interface-Manager\Plugin UIPs\DisabledUIP\DisabledUIP.lvclass"/>
+    <UIPPlugin Enabled="FALSE" Path="C:\GitHub\LabVIEW-User-Interface-Manager\Plugin UIPs\PositionUIP\PositionUIP.lvclass"/>
+    <UIPPlugin Enabled="FALSE" Path="C:\GitHub\LabVIEW-User-Interface-Manager\Plugin UIPs\SizeUIP\SizeUIP.lvclass"/>
+    <UIPPlugin Enabled="FALSE" Path="C:\GitHub\LabVIEW-User-Interface-Manager\Plugin UIPs\TipStripUIP\TipStripUIP.lvclass"/>
+    <UIPPlugin Enabled="FALSE" Path="C:\GitHub\LabVIEW-User-Interface-Manager\Plugin UIPs\ValueUIP\ValueUIP.lvclass"/>
+    <UIPPlugin Enabled="FALSE" Path="C:\GitHub\LabVIEW-User-Interface-Manager\Plugin UIPs\VisibleUIP\VisibleUIP.lvclass"/>
+  </UIPList>
+
+  <State Name="english">
     <Control Name="Boolean">
-      <UIP Name="CaptionUIP" Value="Boolean"/>
+      <UIP Name="UIM.lvlib:CaptionUIP.lvclass" Value="Boolean"/>
+      <UIP Name="UIM.lvlib:DescriptionUIP.lvclass" Value=""/>
     </Control>
     <Control Name="File Path Control">
-      <UIP Name="CaptionUIP" Value="File Path Control"/>
+      <UIP Name="UIM.lvlib:CaptionUIP.lvclass" Value="File Path Control"/>
+      <UIP Name="UIM.lvlib:DescriptionUIP.lvclass" Value=""/>
     </Control>
     <Control Name="Numeric Control">
-      <UIP Name="CaptionUIP" Value="Numeric Control"/>
+      <UIP Name="UIM.lvlib:CaptionUIP.lvclass" Value="Numeric Control"/>
+      <UIP Name="UIM.lvlib:DescriptionUIP.lvclass" Value=""/>
     </Control>
     <Control Name="Stop Button">
-      <UIP Name="CaptionUIP" Value="Stop Button"/>
+      <UIP Name="UIM.lvlib:CaptionUIP.lvclass" Value="Stop Button"/>
+      <UIP Name="UIM.lvlib:DescriptionUIP.lvclass" Value=""/>
     </Control>
     <Control Name="String">
-      <UIP Name="CaptionUIP" Value="String"/>
+      <UIP Name="UIM.lvlib:CaptionUIP.lvclass" Value="String"/>
+      <UIP Name="UIM.lvlib:DescriptionUIP.lvclass" Value=""/>
     </Control>
     <Control Name="UI State">
-      <UIP Name="CaptionUIP" Value="UI State"/>
+      <UIP Name="UIM.lvlib:CaptionUIP.lvclass" Value="UI State"/>
+      <UIP Name="UIM.lvlib:DescriptionUIP.lvclass" Value=""/>
     </Control>
     <Control Name="Waveform Chart">
-      <UIP Name="CaptionUIP" Value="Waveform Chart"/>
+      <UIP Name="UIM.lvlib:CaptionUIP.lvclass" Value="Waveform Chart"/>
+      <UIP Name="UIM.lvlib:DescriptionUIP.lvclass" Value="This is an english description of the graph."/>
     </Control>
   </State>
-  <State Name="Polski">
+
+  <State Name="polish">
     <Control Name="Boolean">
-      <UIP Name="CaptionUIP" Value="Kontrolka Logiczna"/>
+      <UIP Name="UIM.lvlib:CaptionUIP.lvclass" Value="Przycisk"/>
+      <UIP Name="UIM.lvlib:DescriptionUIP.lvclass" Value=""/>
     </Control>
     <Control Name="File Path Control">
-      <UIP Name="CaptionUIP" Value="Ścieżka do pliku"/>
+      <UIP Name="UIM.lvlib:CaptionUIP.lvclass" Value="Sciezka Do Pliku"/>
+      <UIP Name="UIM.lvlib:DescriptionUIP.lvclass" Value=""/>
     </Control>
     <Control Name="Numeric Control">
-      <UIP Name="CaptionUIP" Value="Kontrolka Numeryczna"/>
+      <UIP Name="UIM.lvlib:CaptionUIP.lvclass" Value="Kontrolka Numeryczna"/>
+      <UIP Name="UIM.lvlib:DescriptionUIP.lvclass" Value=""/>
     </Control>
     <Control Name="Stop Button">
-      <UIP Name="CaptionUIP" Value="Przycisk Stop"/>
+      <UIP Name="UIM.lvlib:CaptionUIP.lvclass" Value="Przycisk Stop"/>
+      <UIP Name="UIM.lvlib:DescriptionUIP.lvclass" Value=""/>
     </Control>
     <Control Name="String">
-      <UIP Name="CaptionUIP" Value="Tekst"/>
+      <UIP Name="UIM.lvlib:CaptionUIP.lvclass" Value="Text"/>
+      <UIP Name="UIM.lvlib:DescriptionUIP.lvclass" Value=""/>
     </Control>
     <Control Name="UI State">
-      <UIP Name="CaptionUIP" Value="Stan Interfejsu Użytkownika"/>
+      <UIP Name="UIM.lvlib:CaptionUIP.lvclass" Value="Stan UI"/>
+      <UIP Name="UIM.lvlib:DescriptionUIP.lvclass" Value=""/>
     </Control>
     <Control Name="Waveform Chart">
-      <UIP Name="CaptionUIP" Value="Wykres"/>
+      <UIP Name="UIM.lvlib:CaptionUIP.lvclass" Value="Wykres"/>
+      <UIP Name="UIM.lvlib:DescriptionUIP.lvclass" Value="To jest polski opis wykresu."/>
     </Control>
   </State>
+
 </UIM>

@@ -27,15 +27,23 @@
 				<Item Name="UIM All Properties.vi" Type="VI" URL="../Examples/UIM All Properties.vi"/>
 				<Item Name="MultiModes.xml" Type="Document" URL="../Examples/MultiModes.xml"/>
 			</Item>
-			<Item Name="Config.xml" Type="Document" URL="../Examples/Config.xml"/>
-			<Item Name="Localization.xml" Type="Document" URL="../Examples/Localization.xml"/>
-			<Item Name="Resolution.xml" Type="Document" URL="../Examples/Resolution.xml"/>
-			<Item Name="UIM Executable Build.vi" Type="VI" URL="../Examples/UIM Executable Build.vi"/>
+			<Item Name="Executable" Type="Folder">
+				<Item Name="UIM Executable Build Localization.vi" Type="VI" URL="../Examples/UIM Executable Build Localization.vi"/>
+				<Item Name="Localization.xml" Type="Document" URL="../Examples/Localization.xml"/>
+			</Item>
+			<Item Name="Values" Type="Folder">
+				<Item Name="UIM Values.vi" Type="VI" URL="../Examples/UIM Values.vi"/>
+				<Item Name="Values.xml" Type="Document" URL="../Examples/Values.xml"/>
+			</Item>
+			<Item Name="Resolution" Type="Folder">
+				<Item Name="UIM Resolution.vi" Type="VI" URL="../Examples/UIM Resolution.vi"/>
+				<Item Name="Resolution.xml" Type="Document" URL="../Examples/Resolution.xml"/>
+			</Item>
+			<Item Name="Controls Visibility" Type="Folder">
+				<Item Name="UIM Visibility Configuration.vi" Type="VI" URL="../Examples/UIM Visibility Configuration.vi"/>
+				<Item Name="Config.xml" Type="Document" URL="../Examples/Config.xml"/>
+			</Item>
 			<Item Name="UIM Programmatic User Modes.vi" Type="VI" URL="../Examples/UIM Programmatic User Modes.vi"/>
-			<Item Name="UIM Resolution.vi" Type="VI" URL="../Examples/UIM Resolution.vi"/>
-			<Item Name="UIM Values.vi" Type="VI" URL="../Examples/UIM Values.vi"/>
-			<Item Name="UIM Visibility Configuration.vi" Type="VI" URL="../Examples/UIM Visibility Configuration.vi"/>
-			<Item Name="Values.xml" Type="Document" URL="../Examples/Values.xml"/>
 		</Item>
 		<Item Name="UIM.lvlib" Type="Library" URL="../UIM.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -114,12 +122,6 @@
 			<Item Name="Enabled Menu Item Status.ctl" Type="VI" URL="/&lt;resource&gt;/plugins/PopupMenus/support/Enabled Menu Item Status.ctl"/>
 			<Item Name="UIP.lvclass" Type="LVClass" URL="../UIP/UIP.lvclass"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="Obtain UIM.vi" Type="VI" URL="../UIM/Obtain UIM.vi"/>
-			<Item Name="Load XML.vi" Type="VI" URL="../UIM/XML/Load XML.vi"/>
-			<Item Name="Get States.vi" Type="VI" URL="../UIM/States/Get States.vi"/>
-			<Item Name="Apply UI State.vi" Type="VI" URL="../UIM/States/Apply UI State.vi"/>
-			<Item Name="Release UIM.vi" Type="VI" URL="../UIM/Release UIM.vi"/>
-			<Item Name="Capture UI State.vi" Type="VI" URL="../UIM/States/Capture UI State.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

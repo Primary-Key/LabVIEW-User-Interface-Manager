@@ -1,81 +1,135 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <UIM>
-  <State Name="Sine">
+
+  <UIPList>
+    <UIPPlugin Enabled="FALSE" Path="C:\GitHub\LabVIEW-User-Interface-Manager\Plugin UIPs\CaptionUIP\CaptionUIP.lvclass"/>
+    <UIPPlugin Enabled="FALSE" Path="C:\GitHub\LabVIEW-User-Interface-Manager\Plugin UIPs\DescriptionUIP\DescriptionUIP.lvclass"/>
+    <UIPPlugin Enabled="FALSE" Path="C:\GitHub\LabVIEW-User-Interface-Manager\Plugin UIPs\DisabledUIP\DisabledUIP.lvclass"/>
+    <UIPPlugin Enabled="FALSE" Path="C:\GitHub\LabVIEW-User-Interface-Manager\Plugin UIPs\PositionUIP\PositionUIP.lvclass"/>
+    <UIPPlugin Enabled="FALSE" Path="C:\GitHub\LabVIEW-User-Interface-Manager\Plugin UIPs\SizeUIP\SizeUIP.lvclass"/>
+    <UIPPlugin Enabled="FALSE" Path="C:\GitHub\LabVIEW-User-Interface-Manager\Plugin UIPs\TipStripUIP\TipStripUIP.lvclass"/>
+    <UIPPlugin Enabled="FALSE" Path="C:\GitHub\LabVIEW-User-Interface-Manager\Plugin UIPs\ValueUIP\ValueUIP.lvclass"/>
+    <UIPPlugin Enabled="TRUE" Path="C:\GitHub\LabVIEW-User-Interface-Manager\Plugin UIPs\VisibleUIP\VisibleUIP.lvclass"/>
+  </UIPList>
+
+  <State Name="no controls">
+    <Control Name="Configuration">
+      <UIP Name="UIM.lvlib:VisibleUIP.lvclass" Value="TRUE"/>
+    </Control>
     <Control Name="Sine Amplitude">
-      <UIP Name="PositionUIP" Value="245 30"/>
-      <UIP Name="VisibleUIP" Value="TRUE"/>
+      <UIP Name="UIM.lvlib:VisibleUIP.lvclass" Value="FALSE"/>
     </Control>
     <Control Name="Sine Frequency">
-      <UIP Name="PositionUIP" Value="325 110"/>
-      <UIP Name="VisibleUIP" Value="TRUE"/>
+      <UIP Name="UIM.lvlib:VisibleUIP.lvclass" Value="FALSE"/>
     </Control>
     <Control Name="Square Amplitude">
-      <UIP Name="PositionUIP" Value="245 30"/>
-      <UIP Name="VisibleUIP" Value="FALSE"/>
+      <UIP Name="UIM.lvlib:VisibleUIP.lvclass" Value="FALSE"/>
     </Control>
     <Control Name="Square Frequency">
-      <UIP Name="PositionUIP" Value="325 110"/>
-      <UIP Name="VisibleUIP" Value="FALSE"/>
+      <UIP Name="UIM.lvlib:VisibleUIP.lvclass" Value="FALSE"/>
+    </Control>
+    <Control Name="Stop Button">
+      <UIP Name="UIM.lvlib:VisibleUIP.lvclass" Value="TRUE"/>
     </Control>
     <Control Name="Triangle Amplitude">
-      <UIP Name="PositionUIP" Value="245 30"/>
-      <UIP Name="VisibleUIP" Value="FALSE"/>
+      <UIP Name="UIM.lvlib:VisibleUIP.lvclass" Value="FALSE"/>
     </Control>
     <Control Name="Triangle Frequency">
-      <UIP Name="PositionUIP" Value="325 110"/>
-      <UIP Name="VisibleUIP" Value="FALSE"/>
+      <UIP Name="UIM.lvlib:VisibleUIP.lvclass" Value="FALSE"/>
+    </Control>
+    <Control Name="Waveform Graph">
+      <UIP Name="UIM.lvlib:VisibleUIP.lvclass" Value="TRUE"/>
     </Control>
   </State>
-  <State Name="Square">
+
+  <State Name="sine">
+    <Control Name="Configuration">
+      <UIP Name="UIM.lvlib:VisibleUIP.lvclass" Value="TRUE"/>
+    </Control>
     <Control Name="Sine Amplitude">
-      <UIP Name="PositionUIP" Value="245 30"/>
-      <UIP Name="VisibleUIP" Value="FALSE"/>
+      <UIP Name="UIM.lvlib:VisibleUIP.lvclass" Value="TRUE"/>
     </Control>
     <Control Name="Sine Frequency">
-      <UIP Name="PositionUIP" Value="325 110"/>
-      <UIP Name="VisibleUIP" Value="FALSE"/>
+      <UIP Name="UIM.lvlib:VisibleUIP.lvclass" Value="TRUE"/>
     </Control>
     <Control Name="Square Amplitude">
-      <UIP Name="PositionUIP" Value="245 30"/>
-      <UIP Name="VisibleUIP" Value="TRUE"/>
+      <UIP Name="UIM.lvlib:VisibleUIP.lvclass" Value="FALSE"/>
     </Control>
     <Control Name="Square Frequency">
-      <UIP Name="PositionUIP" Value="325 110"/>
-      <UIP Name="VisibleUIP" Value="TRUE"/>
+      <UIP Name="UIM.lvlib:VisibleUIP.lvclass" Value="FALSE"/>
+    </Control>
+    <Control Name="Stop Button">
+      <UIP Name="UIM.lvlib:VisibleUIP.lvclass" Value="TRUE"/>
     </Control>
     <Control Name="Triangle Amplitude">
-      <UIP Name="PositionUIP" Value="245 30"/>
-      <UIP Name="VisibleUIP" Value="FALSE"/>
+      <UIP Name="UIM.lvlib:VisibleUIP.lvclass" Value="FALSE"/>
     </Control>
     <Control Name="Triangle Frequency">
-      <UIP Name="PositionUIP" Value="325 110"/>
-      <UIP Name="VisibleUIP" Value="FALSE"/>
+      <UIP Name="UIM.lvlib:VisibleUIP.lvclass" Value="FALSE"/>
+    </Control>
+    <Control Name="Waveform Graph">
+      <UIP Name="UIM.lvlib:VisibleUIP.lvclass" Value="TRUE"/>
     </Control>
   </State>
-  <State Name="Triangle">
+
+  <State Name="square">
+    <Control Name="Configuration">
+      <UIP Name="UIM.lvlib:VisibleUIP.lvclass" Value="TRUE"/>
+    </Control>
     <Control Name="Sine Amplitude">
-      <UIP Name="PositionUIP" Value="245 30"/>
-      <UIP Name="VisibleUIP" Value="FALSE"/>
+      <UIP Name="UIM.lvlib:VisibleUIP.lvclass" Value="FALSE"/>
     </Control>
     <Control Name="Sine Frequency">
-      <UIP Name="PositionUIP" Value="325 110"/>
-      <UIP Name="VisibleUIP" Value="FALSE"/>
+      <UIP Name="UIM.lvlib:VisibleUIP.lvclass" Value="FALSE"/>
     </Control>
     <Control Name="Square Amplitude">
-      <UIP Name="PositionUIP" Value="245 30"/>
-      <UIP Name="VisibleUIP" Value="FALSE"/>
+      <UIP Name="UIM.lvlib:VisibleUIP.lvclass" Value="TRUE"/>
     </Control>
     <Control Name="Square Frequency">
-      <UIP Name="PositionUIP" Value="325 110"/>
-      <UIP Name="VisibleUIP" Value="FALSE"/>
+      <UIP Name="UIM.lvlib:VisibleUIP.lvclass" Value="TRUE"/>
+    </Control>
+    <Control Name="Stop Button">
+      <UIP Name="UIM.lvlib:VisibleUIP.lvclass" Value="TRUE"/>
     </Control>
     <Control Name="Triangle Amplitude">
-      <UIP Name="PositionUIP" Value="245 30"/>
-      <UIP Name="VisibleUIP" Value="TRUE"/>
+      <UIP Name="UIM.lvlib:VisibleUIP.lvclass" Value="FALSE"/>
     </Control>
     <Control Name="Triangle Frequency">
-      <UIP Name="PositionUIP" Value="325 110"/>
-      <UIP Name="VisibleUIP" Value="TRUE"/>
+      <UIP Name="UIM.lvlib:VisibleUIP.lvclass" Value="FALSE"/>
+    </Control>
+    <Control Name="Waveform Graph">
+      <UIP Name="UIM.lvlib:VisibleUIP.lvclass" Value="TRUE"/>
     </Control>
   </State>
+
+  <State Name="triangle">
+    <Control Name="Configuration">
+      <UIP Name="UIM.lvlib:VisibleUIP.lvclass" Value="TRUE"/>
+    </Control>
+    <Control Name="Sine Amplitude">
+      <UIP Name="UIM.lvlib:VisibleUIP.lvclass" Value="FALSE"/>
+    </Control>
+    <Control Name="Sine Frequency">
+      <UIP Name="UIM.lvlib:VisibleUIP.lvclass" Value="FALSE"/>
+    </Control>
+    <Control Name="Square Amplitude">
+      <UIP Name="UIM.lvlib:VisibleUIP.lvclass" Value="FALSE"/>
+    </Control>
+    <Control Name="Square Frequency">
+      <UIP Name="UIM.lvlib:VisibleUIP.lvclass" Value="FALSE"/>
+    </Control>
+    <Control Name="Stop Button">
+      <UIP Name="UIM.lvlib:VisibleUIP.lvclass" Value="TRUE"/>
+    </Control>
+    <Control Name="Triangle Amplitude">
+      <UIP Name="UIM.lvlib:VisibleUIP.lvclass" Value="TRUE"/>
+    </Control>
+    <Control Name="Triangle Frequency">
+      <UIP Name="UIM.lvlib:VisibleUIP.lvclass" Value="TRUE"/>
+    </Control>
+    <Control Name="Waveform Graph">
+      <UIP Name="UIM.lvlib:VisibleUIP.lvclass" Value="TRUE"/>
+    </Control>
+  </State>
+
 </UIM>

@@ -23,11 +23,13 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Examples" Type="Folder">
+			<Item Name="Multiple Modes" Type="Folder">
+				<Item Name="UIM All Properties.vi" Type="VI" URL="../Examples/UIM All Properties.vi"/>
+				<Item Name="MultiModes.xml" Type="Document" URL="../Examples/MultiModes.xml"/>
+			</Item>
 			<Item Name="Config.xml" Type="Document" URL="../Examples/Config.xml"/>
 			<Item Name="Localization.xml" Type="Document" URL="../Examples/Localization.xml"/>
-			<Item Name="MultiModes.xml" Type="Document" URL="../Examples/MultiModes.xml"/>
 			<Item Name="Resolution.xml" Type="Document" URL="../Examples/Resolution.xml"/>
-			<Item Name="UIM All Properties.vi" Type="VI" URL="../Examples/UIM All Properties.vi"/>
 			<Item Name="UIM Executable Build.vi" Type="VI" URL="../Examples/UIM Executable Build.vi"/>
 			<Item Name="UIM Programmatic User Modes.vi" Type="VI" URL="../Examples/UIM Programmatic User Modes.vi"/>
 			<Item Name="UIM Resolution.vi" Type="VI" URL="../Examples/UIM Resolution.vi"/>
